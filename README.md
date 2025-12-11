@@ -55,4 +55,64 @@ It is designed for colleges and universities with separate flows for **Students*
 ---
 
 ## 📁 Project Structure (example)
+lib/
+core/
+theme/
+utils/
+data/
+models/
+datasources/
+repositories/
+domain/
+entities/
+use_cases/
+presentation/
+screens/
+student/
+faculty/
+admin/
+widgets/
+providers/
+
+Follows a **clean architecture** style with clear separation of UI, domain, and data layers. [web:117][web:120]
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Flutter SDK installed and configured. [web:68][web:70]  
+- Android Studio or VS Code with Flutter/Dart plugins. [web:68]  
+- Backend (Firebase project or REST API) set up with auth and attendance endpoints. [web:10][web:128]
+
+### Installation
+clone the repo
+git clone <your-repo-url>
+cd smartattend
+
+install dependencies
+flutter pub get
+
+run the app (debug)
+flutter run
+
+
+### Configuration
+
+- Add your API base URLs / Firebase configuration in a config file or `.env`. [web:129][web:131]  
+- Ensure backend roles (student / faculty / admin) and security rules are configured. [web:10][web:131]
+
+---
+
+## 🗺 Roadmap
+
+- 🔍 Face recognition / biometric integration to prevent proxy attendance. [web:10][web:137][web:138]  
+- 📍 Geofencing and location-based validation for on-campus attendance. [web:131][web:137]  
+- 👪 Parent/guardian portal for real-time monitoring and alerts. [web:40][web:43]  
+- 🧠 AI-driven analytics (dropout risk, smart recommendations, anomaly detection). [web:21][web:111]
+
+---
+
+
 
